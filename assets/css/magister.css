@@ -21,6 +21,19 @@ body {
 	font-weight: auto;
 }
 
+/* Mobile browsers only */
+@media only screen and (max-device-width: 480px) {
+    table#all_results {
+        width: auto;
+    }
+    td#main_box {
+        width: 320px;
+    }
+    td#side_box {
+        width: 320px;
+    }
+}
+
 .google-maps {
     position: relative;
     padding-bottom: 55%; // (450 ÷ 500 = 0.9 = 90%)
