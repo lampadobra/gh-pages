@@ -48,28 +48,7 @@ body {
     height: 100%;
 }
 
-@media screen and (max-device-width: 480px){
-  body{
-    -webkit-text-size-adjust: auto;
-  }
-}
 
-body {
-	-webkit-text-size-adjust:auto;
-}
-
-@media (max-width: @screen-xs) {
-    body{font-size: 10px;}
-}
-
-@media (max-width: @screen-sm) {
-    body{font-size: 14px;}
-}
-
-
-h5{
-    font-size: 1.4em;
-}       
 
 /********************************************************/
 /*                    Navigation bar                    */
@@ -213,6 +192,29 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 		font-size:0.6em;
 	}
 }
+
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: auto;
+  }
+}
+
+body {
+	-webkit-text-size-adjust:auto;
+}
+
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
+
+h5{
+    font-size: 1.4em;
+}       
 
 
 /********************************************************/
