@@ -40,6 +40,10 @@ body {
   }
 }
 
+body {
+	-webkit-text-size-adjust:none;
+}
+
 /********************************************************/
 /*                    Navigation bar                    */
 /********************************************************/
@@ -134,7 +138,7 @@ body {
 	display:none;
 	top:0;
 } 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
 	.section { padding-top:160px;}
 }
 
