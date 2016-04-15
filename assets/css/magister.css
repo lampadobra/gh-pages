@@ -36,12 +36,12 @@ body {
 
 @media screen and (max-device-width: 480px){
   body{
-    -webkit-text-size-adjust: none;
+    -webkit-text-size-adjust: auto;
   }
 }
 
 body {
-	-webkit-text-size-adjust:none;
+	-webkit-text-size-adjust:auto;
 }
 
 /********************************************************/
