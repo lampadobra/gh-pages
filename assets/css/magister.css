@@ -208,7 +208,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	margin-bottom:75px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
 	.lead { 
 		font-size:1.3em;
 	}
